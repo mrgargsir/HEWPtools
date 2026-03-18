@@ -42,17 +42,14 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="/logo.png" />
 
-  <!-- 👇 REMOVE old schema on line 348 and paste this before </body> instead -->
+  <!--  schema  -->
 
-<!-- 1️⃣ SoftwareSourceCode Schema (Enhanced) -->
+<!-- 1️⃣ SoftwareSourceCode Schema (Fixed) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareSourceCode",
   "name": "MRGARGSIR HEWP Tools Hub",
-  "operatingSystem": "Windows",
-  "applicationCategory": "BusinessApplication",
-  "applicationSubCategory": "Construction Estimation Software",
   "description": "Billing and HEWP automation tools, utilities, templates, and integrations. Free tools for engineers, contractors and power users. Portal automation, data processing utilities, integration helpers for third-party tools.",
   "url": "https://mrgargsir.github.io/HEWPtools/",
   "codeRepository": "https://github.com/mrgargsir/HEWPtools",
@@ -67,7 +64,14 @@
   "targetProduct": {
     "@type": "SoftwareApplication",
     "name": "HEWP Excel Addins",
-    "url": "https://mrgargsir.github.io/HEWP-Excel-Addins/"
+    "url": "https://mrgargsir.github.io/HEWP-Excel-Addins/",
+    "operatingSystem": "Windows",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "INR"
+    }
   },
   "author": {
     "@type": "Person",
